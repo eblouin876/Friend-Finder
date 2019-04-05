@@ -5,8 +5,226 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Friend Finder Survey</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
   </head>
   <body>
-    <h1>Survey</h1>
+    <div class="container">
+      <div class="row"></div>
+      <div class="row">
+        <div class="col s10 offset-s1">
+          <h2>Survey Questions</h2>
+          <div class="divider"></div>
+          <h3>About You</h3>
+          <h5>Name (Required)</h5>
+          <form action="/api/friends" method="POST">
+            <input
+              required
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Jane Smith"
+            />
+            <h5>Link to Photo Image (Required)</h5>
+            <input
+              required
+              type="url"
+              name="photo"
+              id="photo"
+              placeholder="https://placeimg.com/640/480/people"
+            />
+            <h4>Question 1</h4>
+            <h5>
+              Your mind is always buzzing with unexplored ideas and plans.
+            </h5>
+            <div class="input-field col s12">
+              <select required class="browser-default" name="q1">
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option value="3"> 3</option>
+                <option value="4"> 4</option>
+                <option value="5"> 5</option>
+              </select>
+            </div>
+            <h4>Question 2</h4>
+            <h5>
+              Your mind is always buzzing with unexplored ideas and plans.
+            </h5>
+            <div class="input-field col s12">
+              <select required class="browser-default" name="q2">
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option value="3"> 3</option>
+                <option value="4"> 4</option>
+                <option value="5"> 5</option>
+              </select>
+            </div>
+            <h4>Question 3</h4>
+            <h5>
+              Your mind is always buzzing with unexplored ideas and plans.
+            </h5>
+            <div class="input-field col s12">
+              <select required class="browser-default" name="q3">
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option value="3"> 3</option>
+                <option value="4"> 4</option>
+                <option value="5"> 5</option>
+              </select>
+            </div>
+            <h4>Question 4</h4>
+            <h5>
+              Your mind is always buzzing with unexplored ideas and plans.
+            </h5>
+            <div class="input-field col s12">
+              <select required class="browser-default" name="q4">
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option value="3"> 3</option>
+                <option value="4"> 4</option>
+                <option value="5"> 5</option>
+              </select>
+            </div>
+            <h4>Question 5</h4>
+            <h5>
+              Your mind is always buzzing with unexplored ideas and plans.
+            </h5>
+            <div class="input-field col s12">
+              <select required class="browser-default" name="q5">
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option value="3"> 3</option>
+                <option value="4"> 4</option>
+                <option value="5"> 5</option>
+              </select>
+            </div>
+            <h4>Question 6</h4>
+            <h5>
+              Your mind is always buzzing with unexplored ideas and plans.
+            </h5>
+            <div class="input-field col s12">
+              <select required class="browser-default" name="q6">
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option value="3"> 3</option>
+                <option value="4"> 4</option>
+                <option value="5"> 5</option>
+              </select>
+            </div>
+            <h4>Question 7</h4>
+            <h5>
+              Your mind is always buzzing with unexplored ideas and plans.
+            </h5>
+            <div class="input-field col s12">
+              <select required class="browser-default" name="q7">
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option value="3"> 3</option>
+                <option value="4"> 4</option>
+                <option value="5"> 5</option>
+              </select>
+            </div>
+            <h4>Question 8</h4>
+            <h5>
+              Your mind is always buzzing with unexplored ideas and plans.
+            </h5>
+            <div class="input-field col s12">
+              <select required class="browser-default" name="q8">
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option value="3"> 3</option>
+                <option value="4"> 4</option>
+                <option value="5"> 5</option>
+              </select>
+            </div>
+            <h4>Question 9</h4>
+            <h5>
+              Your mind is always buzzing with unexplored ideas and plans.
+            </h5>
+            <div class="input-field col s12">
+              <select required class="browser-default" name="q9">
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option value="3"> 3</option>
+                <option value="4"> 4</option>
+                <option value="5"> 5</option>
+              </select>
+            </div>
+            <h4>Question 10</h4>
+            <h5>
+              Your mind is always buzzing with unexplored ideas and plans.
+            </h5>
+            <div class="input-field col s12">
+              <select required class="browser-default" name="q10">
+                <option value="1"> 1</option>
+                <option value="2"> 2</option>
+                <option value="3"> 3</option>
+                <option value="4"> 4</option>
+                <option value="5"> 5</option>
+              </select>
+            </div>
+            <div class="divider"></div>
+            <input
+              class="waves-effect waves-light btn-small"
+              type="submit"
+              value="submit"
+            />
+          </form>
+        </div>
+        <div class="col s10 offset-s1">
+          <a href="/api/friends">API Friends List</a> |
+          <a href="https://github.com/eblouin876/Friend-Finder">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+      $("#submit").on("click", () => {
+        console.log("#q1").val();
+        let form = {
+          name: $("#name")
+            .val()
+            .trim(),
+          photo: $("#photo")
+            .val()
+            .trim(),
+          scores: [
+            $("#q1")
+              .val()
+              .trim(),
+            $("#q1")
+              .val()
+              .trim(),
+            $("#q1")
+              .val()
+              .trim(),
+            $("#q1")
+              .val()
+              .trim(),
+            $("#q1")
+              .val()
+              .trim(),
+            $("#q1")
+              .val()
+              .trim(),
+            $("#q1")
+              .val()
+              .trim(),
+            $("#q1")
+              .val()
+              .trim(),
+            $("#q1")
+              .val()
+              .trim(),
+            $("#q1")
+              .val()
+              .trim()
+          ]
+        };
+      });
+    </script>
   </body>
 </html>

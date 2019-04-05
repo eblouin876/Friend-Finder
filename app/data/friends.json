@@ -1,0 +1,19 @@
+{
+  "friends": [
+    {
+      "name": "Bob",
+      "photo": "https://placeimg.com/640/480/people",
+      "scores": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+    },
+    {
+      "name": "Emile",
+      "photo": "https://placeimg.com/640/480/any",
+      "scores": [2, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+      "name": "Emile 2",
+      "photo": "https://placeimg.com/640/480/any",
+      "scores": [2, 1, 1, 1, 1, 5, 1, 1, 1, 1]
+    }
+  ]
+}
