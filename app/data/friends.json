@@ -1,19 +1,39 @@
 {
   "friends": [
     {
-      "name": "Bob",
-      "photo": "https://placeimg.com/640/480/people",
+      "name": "Warinhari Nadire",
+      "photo": "https://images.vexels.com/media/users/3/129061/isolated/preview/e72d3671b75019d6027fcba88e3308ec-woman-photographer-cartoon-by-vexels.png",
       "scores": [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
     },
     {
-      "name": "Emile",
-      "photo": "https://placeimg.com/640/480/any",
-      "scores": [2, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+      "name": "Roberts Agneza",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Cartoon_Meditating_Man.svg",
+      "scores": [1, 3, 4, 5, 1, 2, 3, 2, 2, 1]
     },
     {
-      "name": "Emile 2",
-      "photo": "https://placeimg.com/640/480/any",
-      "scores": [2, 1, 1, 1, 1, 5, 1, 1, 1, 1]
+      "name": "Danny Virgilio",
+      "photo": "https://images.vexels.com/media/users/3/145742/isolated/preview/9f5d890c42b637514ba86c1ab83678c7-man-finger-raised-illustration-by-vexels.png",
+      "scores": [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+    },
+    {
+      "name": "Vaiva Tijana",
+      "photo": "http://www.pngpix.com/wp-content/uploads/2016/10/PNGPIX-COM-Business-Woman-Vector-PNG-Transparent-Image-500x1050.png",
+      "scores": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+    },
+    {
+      "name": "Micaela Alvilda",
+      "photo": "https://images.vexels.com/media/users/3/129058/isolated/preview/ed18aac2f2f388b7716efad02af8100f-woman-creative-artist-cartoon-by-vexels.png",
+      "scores": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+    },
+    {
+      "name": "Patsy Brigitte",
+      "photo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/A_Chic_Cartoon_Businesswoman.svg/440px-A_Chic_Cartoon_Businesswoman.svg.png",
+      "scores": [4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+    },
+    {
+      "name": "Aleks Mien",
+      "photo": "http://clipart-library.com/img/1015519.png",
+      "scores": [1, 2, 3, 4, 5, 5, 4, 3, 2, 1]
     }
   ]
 }

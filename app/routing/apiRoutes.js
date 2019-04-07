@@ -7,8 +7,6 @@ module.exports = function(app) {
   });
 
   app.post("/api/friends", function(req, res) {
-    console.log("I hear you");
-    console.log(req.body);
     let val = req.body;
     let newFriend = {
       name: val.name,
@@ -35,7 +33,7 @@ module.exports = function(app) {
         } else {
           let match = compare(newFriend, JSON.parse(data));
           updateFriends(newFriend);
-          res.send(match);
+          res.redirect(`/match?match=${match.name}`);
         }
       }
     );
